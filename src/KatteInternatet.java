@@ -21,6 +21,16 @@ public class KatteInternatet {
         kat1.hvorGammel();
         kat2.hvorGammel();
 
+        // vi laver lige et nyt objekt for at kunne vise at klassen KatteLejetøj virker
+        KatteLegetøj legetøj1 = new KatteLegetøj("plastic", "gul");
+        legetøj1.rasle();
+
+        KatteLegetøj legetøj2 = new KatteLegetøj("træ","brun");
+        legetøj2.piv();
+        legetøj2.setAlter(12);
+        legetøj2.getAlter();
+        System.out.println("legetøjet er " + legetøj2.alter + " år gammelt. ");
+
         // Slette kat3
         kat3 = null;
 

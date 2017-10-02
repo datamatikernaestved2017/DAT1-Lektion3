@@ -27,7 +27,7 @@ public class Metoder {
         fraJohan("Johan Was here");
         hejMathias();
 
-        ditNavn("Daniel");
+
 
     }
 
@@ -66,9 +66,8 @@ public class Metoder {
         System.out.println("Where was Johan? " + johanPrint);
     }
   
-  public static void HejSebastian() {    
-        System.out.println( "Hej " + mitNavn);
-  }
+
+
     public static void hejThomas() {
         System.out.println("Hej Thomas :i");
     }
